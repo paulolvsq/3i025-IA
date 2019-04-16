@@ -1,0 +1,23 @@
+TME semaine 1:
+7) Du côté étudiant : André Vigne obtient DAC, Paul-Antoine Levesque obtient ANDROIDE
+   Du côté master : pareil
+   Les affectations pour les masters avec un nombre de places plus important que les autres sont
+   ressemblantes, mais les masters qui ont un nombre de places moins important n'ont pas les mêmes
+   affectations de chaque côté. On remarque une corrélation avec le taux d'appréciation des masters
+   (liste de préférence des étudiants).
+
+TME semaine 2:
+10) Du côté étudiant on a une complexité en O(n²) cohérente avec la complexité théorique (/stats/temps_calcul_etu.png).
+    En revanche du côté master on a une complexité en O(n) qui ne correspond pas à la complexité
+    théorique (/stats/temps_calcul_master.png).
+
+11) De même pour les itérations : les courbes /stats/nb_ite_etu.png et /stats/nb_ite_master montrent
+    une complexité en O(n) incohérente avec la complexité théorique. Cependant on remarque que les
+    nombres obtenus sont différents selon les instances de test car les listes sont générées
+    aléatoirement.
+
+Pour expliquer ces résultats, on a affiché les courbes dans un repère log-log afin de voir côté
+étudiant et côté master la complexité obtenue grâce à la pente de la droite obtenue dans le repère
+log-log. On a obtenu côté étudiant une complexité de O(n³) ce qui incohérent et du côté master on
+a une complexité en O(n). On obtient pour le nombre d'itérations dans les deux cas une pente en
+O(n).
